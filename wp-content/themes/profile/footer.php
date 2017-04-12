@@ -27,8 +27,6 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="small-12 medium-6 large-6 columns">
 		<div class="site-info">
-			<?php _e('Theme: ','profile'); ?><a href="<?php echo esc_url( __( 'http://www.insertcart.com/product/profile-pro-wordpress-theme/', 'profile' ) ); ?>"><?php printf( esc_html__( '%s', 'profile' ), 'profile' ); ?></a>
-			<span class="sep"> | </span>
 			<?php echo ( esc_attr(get_theme_mod('profile_footer_text') == '' )) ? ('&copy; '.date_i18n('Y').' '.get_bloginfo('name').__('. All Rights Reserved. ','profile')) : esc_attr(get_theme_mod('profile_footer_text')); ?>
 		</div><!-- .site-info -->
 		</div>

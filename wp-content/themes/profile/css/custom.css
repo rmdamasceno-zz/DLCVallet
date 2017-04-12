@@ -100,14 +100,16 @@ h1.site-title {
 
 p.site-title a,
 h1.site-title a {
-    font-size: 3rem;
+    font-size: 4rem;
     color: #f5f5f5;
     font-weight: bold;
-    line-height: 1
+    line-height: 1;
+	font-family: 'Lemon', cursive;
 }
 
 h2.site-description {
-    color: #f5f5f5
+    color: #f5f5f5;
+	font-family: 'Cinzel', serif;
 }
 
 div#content {
@@ -2390,11 +2392,11 @@ nav#mainnavi {
 }
 
 .parallax-background {
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-repeat: repeat;
+    -webkit-background-size: inherit;
+    -moz-background-size: inherit;
+    -o-background-size: inherit;
+    background-size: inherit;
     position: fixed;
     width: 100%;
     height: inherit
